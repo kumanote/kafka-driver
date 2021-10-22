@@ -1,0 +1,13 @@
+[package]
+name = "kafka-driver"
+version = "0.1.0-beta"
+authors = ["Hiroki Tanaka <support@kumano-te.com>"]
+license = "MIT"
+edition = "2018"
+description = "Rust implementation of rust-rdkafka(Apache kafka client) wrapper."
+repository = "https://github.com/kumanote/kafka-driver"
+readme = "README.md"
+keywords = ["kafka", "rdkafka"]
+
+[dependencies]
+rdkafka = { version = "0.25", features = ["cmake-build"] }
